@@ -6,6 +6,7 @@
 #include <iostream>
 #include <cstddef>
 
+#include "second.h"
 #include "rmkit.h"
 using namespace std;
 
@@ -72,4 +73,5 @@ class App {
 
 int main() {
   App app;
+  Secondary::exported();
   app.run(); };
